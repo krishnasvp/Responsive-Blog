@@ -141,7 +141,7 @@ body.light-theme{
     gap: var(--gap);
 }
 
-.menu > .list{
+.menu,  .list{
     flex-direction: column;
 }
 
@@ -184,4 +184,8 @@ body.light-theme{
     box-shadow: 1px 1px 1rem var(--transparent-light-color);
     opacity:1;
     transform: scale(1);
+}
+
+.menu-toggle-icon.activated .close-menu-icon{
+    display: block;
 }
