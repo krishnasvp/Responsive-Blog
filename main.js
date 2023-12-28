@@ -40,7 +40,7 @@ formCloseBtn.addEventListener('click', () => searchFromContainer.classlist.remov
 // -- Close the search form popup on ESC keypress
 window.addEventListener('keyup', event => {
     if(event.key === 'Escape') searchFromContainer.classList.remove('activated');
-})
+});
 
 // Switch theme/add to local storage
 const bodyElement = document.body;
