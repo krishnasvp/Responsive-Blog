@@ -111,7 +111,7 @@ body.light-theme{
     z-index: 999;
 }
 
-.navbar{
+.navbar-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
